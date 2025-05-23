@@ -17,6 +17,10 @@
       padding: 1.5rem;
       text-align: center;
     }
+    header img {
+      max-width: 120px;
+      margin-bottom: 1rem;
+    }
     header h1 {
       font-family: 'Orbitron', sans-serif;
       font-size: 2.5rem;
@@ -46,13 +50,22 @@
       max-width: 600px;
       margin: 1rem auto;
     }
-    .contact {
+    .services, .contact {
+      padding: 3rem 2rem;
       background-color: #1a2235;
-      padding: 2rem;
       text-align: center;
     }
-    .contact h3 {
+    .services h3, .contact h3 {
       color: #00bfff;
+      font-size: 1.8rem;
+    }
+    .services ul {
+      list-style: none;
+      padding: 0;
+    }
+    .services li {
+      margin: 0.5rem 0;
+      font-weight: 500;
     }
     .contact p {
       margin: 0.5rem 0;
@@ -68,6 +81,7 @@
 </head>
 <body>
   <header>
+    <img src="logo.png" alt="LuminoSec Logo">
     <h1>LuminoSec</h1>
     <nav>
       <a href="#services">Services</a>
@@ -78,11 +92,20 @@
     <h2>Electrical & Security Solutions</h2>
     <p>Delivering innovative, safe, and reliable electrical and security installations. Serving homes, businesses, and industrial properties with top-tier expertise.</p>
   </section>
+  <section id="services" class="services">
+    <h3>Our Services</h3>
+    <ul>
+      <li>Residential & Commercial Electrical Installations</li>
+      <li>Alarm & CCTV System Installation</li>
+      <li>24/7 Emergency Electrical Callouts</li>
+      <li>Smart Home Integration</li>
+      <li>Security System Maintenance</li>
+    </ul>
+  </section>
   <section id="contact" class="contact">
     <h3>Contact Us</h3>
-    <p>Phone: 01234 567890</p>
-    <p>Email: info@luminosec.com</p>
-    <p>Website: www.luminosec.com</p>
+    <p>Tel: 07539430203</p>
+    <p>Email: info@luminosec.co.uk</p>
   </section>
   <footer>
     <p>&copy; 2025 LuminoSec. All rights reserved.</p>
